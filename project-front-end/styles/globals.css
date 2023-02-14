@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.Supplychain {
+  width: 100%;
+  padding: 1em;
+}
+
+.Supplychain-ul {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.Supplychain-li {
+  margin: 0.5em;
+}
